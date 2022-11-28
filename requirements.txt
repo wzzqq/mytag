@@ -13,6 +13,7 @@ peewee==3.15.4
 pytest==7.2.0
 requests_html==0.10.0
 scikit_learn
+pytz==2019.2
 setuptools==59.2.0
-tzlocal==2.0.0
+tzlocal==2.1
 -e git+https://github.com/wzzqq/mytag.git#egg=bustag
