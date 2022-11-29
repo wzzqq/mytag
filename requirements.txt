@@ -94,6 +94,7 @@ requests-html==0.10.0
 scikit-learn==1.0.2
 scipy==1.7.3
 Send2Trash==1.5.0
+setuptools==59.2.0
 six==1.12.0
 sklearn==0.0
 smmap==0.9.0
@@ -121,6 +122,7 @@ w3lib==1.20.0
 wcwidth==0.1.7
 webencodings==0.5.1
 websockets==8.0.2
+wheel==0.37.0
 widgetsnbextension==3.5.1
 wrapt==1.11.2
 yarg==0.1.9
