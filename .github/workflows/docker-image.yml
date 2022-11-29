@@ -3,12 +3,12 @@ name: ci
 on:
   push:
     branches:
-      - 'main1'
+      - 'main'
     tags:
       - 'v*'
   pull_request:
     branches:
-      - 'main1'
+      - 'main'
 
 jobs:
   docker:
@@ -42,4 +42,4 @@ jobs:
             linux/arm64
           push: true
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/bustag-m:latest
+            ${{ secrets.DOCKER_USERNAME }}/bustag-z:latest
